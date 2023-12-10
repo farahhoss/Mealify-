@@ -68,7 +68,7 @@
     left: 80%;
   }
   #chefs .chef-item .chef-photo::before {
-    bottom: 195.5px;
+    bottom: 185.5px;
     height: 5rem;
   }
   #chefs .chef-item .chef-about h3 {
@@ -184,7 +184,7 @@
     left: 80%;
   }
   #chefs .chef-item .chef-photo::before {
-    bottom: 150.5px;
+    bottom: 146.5px;
     height: 5rem;
   }
   #chefs .chef-item .chef-about h3 {
@@ -268,20 +268,7 @@
     width: 100%;
     order: -1;
   }
-  @keyframes move-photo {
-    0% {
-      transform: translate(-0.4px);
-    }
-
-    50% {
-      transform: translateY(0.3px);
-    }
-
-    100% {
-      transform: translate(0.5px);
-    }
-  }
-
+ 
   #home .container {
     flex-wrap: wrap;
   }
