@@ -59,7 +59,7 @@
     display: flex;
   }
   #chefs .chef-item {
-    width: 80%;
+    width: 90%;
     padding-bottom: 50px;
     margin-bottom: 50px;
   }
@@ -68,7 +68,7 @@
     left: 80%;
   }
   #chefs .chef-item .chef-photo::before {
-    bottom: 184.5px;
+    bottom: 190.5px;
     height: 5rem;
   }
   #chefs .chef-item .chef-about h3 {
