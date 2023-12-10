@@ -1,0 +1,222 @@
+body:has(.mode input:checked) {
+  background-color: #202020;
+}
+
+body:not(:has(:target)):has(.mode input:checked) .home-link,
+body:has(.home:target):has(.mode input:checked) .home-link,
+body:has(.chefs:target):has(.mode input:checked) .chefs-link,
+body:has(.gallery:target):has(.mode input:checked) .gallery-link,
+body:has(.contact:target):has(.mode input:checked) .contact-link {
+  color: white !important;
+}
+body:not(:has(:target)):has(.mode input:checked) .home-link::before,
+body:has(.home:target):has(.mode input:checked) .home-link::before,
+body:has(.chefs:target):has(.mode input:checked) .chefs-link::before,
+body:has(.gallery:target):has(.mode input:checked) .gallery-link::before,
+body:has(.contact:target):has(.mode input:checked) .contact-link::before {
+  width: 100% !important;
+}
+body:has(.mode input:checked) #nav .nav-bar ul li a:hover {
+  color: white;
+}
+body:has(.mode input:checked) #nav .mode .light {
+  display: block;
+  color: white;
+}
+body:has(.mode input:checked) #nav .mode .dark {
+  display: none;
+}
+body:has(.mode input:checked) #nav {
+  background-color: black;
+}
+body:has(.mode input:checked) #nav .logo a {
+  color: white;
+}
+body:has(.mode input:checked) #nav .logo a span {
+  color: #c17e1f;
+}
+
+body:has(.mode input:checked) #nav .nav-bar ul li a::before {
+  background-color: #c17e1f;
+}
+/******************************************home**************************************************************/
+body:has(.mode input:checked) #home {
+  background-color: #252525;
+}
+body:has(.mode input:checked) #home .about-content .button-grp .btn1 {
+  background-color: #c17e1f;
+  color: black;
+}
+body:has(.mode input:checked) #home .about-content .button-grp .btn1:hover {
+  background-color: #ce8826;
+}
+body:has(.mode input:checked) #home .about-content .button-grp .icon-vip {
+  color: white;
+}
+body:has(.mode input:checked)
+  #home
+  .about-content
+  .button-grp
+  .icon-vip::before {
+  background-color: #c17e1f;
+}
+body:has(.mode input:checked) #home .about-content .button-grp .btn2 {
+  color: white;
+}
+body:has(.mode input:checked) #home .about-content .button-grp .icon-video {
+  color: white;
+  background-color: black;
+}
+body:has(.mode input:checked) #home .about-content .button-grp:hover .btn2 {
+  color: #c17e1f;
+}
+body:has(.mode input:checked)
+  #home
+  .about-content
+  .button-grp:hover
+  .icon-video
+  i {
+  color: #c17e1f;
+}
+
+body:has(.mode input:checked) #home .about-content {
+  color: white;
+}
+
+/*******************************************chefsss*******************************************/
+body:has(.mode input:checked) #chefs .chef-titl h2 {
+  color: white;
+}
+body:has(.mode input:checked) #chefs .chef-titl p {
+  color: white;
+}
+body:has(.mode input:checked) #chefs .chef-titl p span {
+  color: #c17e1f;
+}
+body:has(.mode input:checked) #chefs .chef-item .chef-about h3 {
+  color: white;
+}
+body:has(.mode input:checked) #chefs .chef-item {
+  background-color: #161515;
+}
+body:has(.mode input:checked) #chefs .chef-item .chef-about p {
+  color: white;
+}
+body:has(.mode input:checked) #chefs .chef-item .chef-about span {
+  color: white;
+}
+
+body:has(.mode input:checked) #chefs .chef-item .chef-photo::before {
+  background-image: url(../team-shape-dark.svg);
+}
+
+/*********************************************gallery******************************************/
+body:has(.mode input:checked) #gallery {
+  background-color: #252525;
+}
+
+body:has(.mode input:checked) #gallery .container .gallrey-title h2 {
+  color: white;
+}
+
+body:has(.mode input:checked) #gallery .container .gallrey-title p {
+  color: white;
+}
+
+body:has(.mode input:checked) #gallery .container .gallrey-title p span {
+  color: #c17e1f;
+}
+
+/**********************************************************contact******************************/
+
+body:has(.mode input:checked) #contact .contact-title h2 {
+  color: white;
+}
+
+body:has(.mode input:checked) #contact .contact-title p {
+  color: white;
+}
+
+body:has(.mode input:checked) #contact .contact-title p span {
+  color: #c17e1f;
+}
+
+body:has(.mode input:checked)
+  #contact
+  .contact-items
+  .item-contact
+  .contact-information {
+  background-color: #252525;
+}
+
+body:has(.mode input:checked)
+  #contact
+  .contact-items
+  .item-contact
+  .contact-information
+  .contact-icon {
+  background-color: #c17e1f;
+}
+body:has(.mode input:checked)
+  #contact
+  .contact-items
+  .item-contact
+  .contact-information
+  .contact-icon
+  i {
+  color: black;
+}
+
+body:has(.mode input:checked)
+  #contact
+  .contact-items
+  .item-contact
+  .contact-information
+  .contact-address
+  h3 {
+  color: rgba(203, 199, 199, 0.615);
+}
+body:has(.mode input:checked)
+  #contact
+  .contact-items
+  .item-contact
+  .contact-information
+  .contact-address
+  p {
+  color: #eeeeee;
+}
+body:has(.mode input:checked)
+  #contact
+  .contact-items
+  .item-contact
+  .contact-information
+  .contact-address
+  p
+  span {
+  color: white;
+}
+
+body:has(.mode input:checked) #contact .contact-details .btn button {
+  background-color: #c17e1f;
+  color: black;
+}
+body:has(.mode input:checked) #contact .contact-details .btn button:hover {
+  background-color: #e29831;
+}
+/*************************************8footer*******************************************************************/
+
+body:has(.mode input:checked) #footer .footer-social .footer-photo h2 span {
+  color: #e29831;
+}
+body:has(.mode input:checked) #footer .footer-subscribe form button {
+  color: black;
+}
+body:has(.mode input:checked) #footer .footer-subscribe form button {
+  background-color: #e29831;
+}
+body:has(.mode input:checked) #footer .footer-subscribe form button:hover {
+  background-color: #f9a837;
+}
+body:has(.mode input:checked) #footer .footer-address ul li i {
+  color: #e29831;
+}
