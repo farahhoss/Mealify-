@@ -67,8 +67,8 @@
     top: 8%;
     left: 80%;
   }
-  #chefs .chef-item .chef-photo::before {
-    bottom: 187.5px;
+ #chefs .chef-item .chef-photo::before {
+    bottom: 188px;
     height: 5rem;
   }
   #chefs .chef-item .chef-about h3 {
